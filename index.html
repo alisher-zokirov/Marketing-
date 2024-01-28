@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- nav -->
+  <div class="left-navbar d-flex flex-xl-column justify-content-between overflow-hidden top-0 z-3">
+    <div class="left-navbar__logo">
+      <img src="./images/Logo.png" alt="">
+    </div>
+    
+    <ul class="left-navbar__list list-unstyled d-xl-flex d-none flex-xl-column align-items-xl-start align-items-center">
+      <li><a class="d-flex align-items-center gap-5 text-decoration-none navbar-link my-4 ms-3" href="">
+        <img src="./images/Статьи.svg" alt=""> Статьи
+      </a></li>
+      <li><a class="d-flex align-items-center gap-5 text-decoration-none navbar-link my-4 ms-3" href="">
+        <img src="./images/Услуги.svg" alt=""> Услуги
+      </a></li>
+      <li><a class="d-flex align-items-center gap-5 text-decoration-none navbar-link my-4 ms-3" href="">
+        <img src="./images/Поддержка.svg" alt=""> Поддержка
+      </a></li>
+      <li><a class="d-flex align-items-center gap-5 text-decoration-none navbar-link my-4 ms-3" href="">
+        <img src="./images/Контакты.svg" alt=""> Контакты
+      </a></li>
+    </ul>
+    
+    <div class="left-navbar__ava d-xl-flex d-none">
+      <img  src="./images/Ава.jpg" alt="">
+    </div>
+    
+    <button class="btn btn-primary d-xl-none d-flex" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars-staggered"></i></button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        ...
+      </div>
+    </div>
+  </div>
+  <!-- nav end -->
+
+  <!-- header -->
+  <header class="header mt-4 z-0">
+    <div class="container">
+      <div class="header__content position-relative overflow-hidden d-flex align-items-center">
+        <img class="w-100 position-absolute" src="./images/bg-image.png" alt="">
+        <div class="header-text">
+          <h1 class="fw-bold">Welcome to All Marketing</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+          <a class="btn btn-primary px-5 rounded-5" href="">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- service -->
+  <section class="service">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-3 col-sm-6 col-10 service-card bg-white d-flex flex-column justify-content-between align-items-center rounded-5">
+          <h4 class="text-center">Мощная аналитика</h4>
+          <div>
+            <img src="./images/computer.png" alt="">
+          </div>
+          <a class="btn btn-primary px-5 rounded-5" href="">Подробнее</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 service-card bg-white d-flex flex-column justify-content-between align-items-center rounded-5">
+          <h4 class="text-center">Мощная аналитика</h4>
+          <div>
+            <img src="./images/notebokk.png" alt="">
+          </div>
+          <a class="btn btn-primary px-5 rounded-5" href="">Подробнее</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 service-card bg-white d-flex flex-column justify-content-between align-items-center rounded-5">
+          <h4 class="text-center">Мощная аналитика</h4>
+          <div>
+            <img src="./images/globe.png" alt="">
+          </div>
+          <a class="btn btn-primary px-5 rounded-5" href="">Подробнее</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 service-card bg-white d-flex flex-column justify-content-between align-items-center rounded-5">
+          <h4 class="text-center">Мощная аналитика</h4>
+          <div>
+            <img src="./images/diagram.png" alt="">
+          </div>
+          <a class="btn btn-primary px-5 rounded-5" href="">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- service end -->
+
+  <!-- news -->
+  <section class="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-12 col-10 news-text offset-md-0 offset-1">
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing</h4>
+          <p class="bg-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam velit aliquam ultrices amet aliquam gravida. Egestas ut pellentesque fames aliquam aenean. Sem id pellentesque etiam diam dolor, pellentesque commodo. Enim donec quam convallis eu etiam ultrices pretium ut. Faucibus adipiscing neque massa vel posuere potenti odio natoque velit. Suscipit eu, quam ipsum, vulputate convallis at ultricies elit. Fermentum fames nunc neque vulputate dui. Nisl semper iaculis iaculis lectus velit ut.</p>
+          <p class="bg-white">Arcu laoreet odio interdum odio ac mi. Curabitur turpis lorem sed justo at nulla massa tristique. At aliquet quam nec ullamcorper pellentesque gravida tempor morbi. At fusce sagittis egestas lobortis mauris. Aliquam pharetra purus volutpat donec nibh mus netus. At tristique pretium, fringilla tincidunt consectetur nunc. Rhoncus id dui, ac a mauris. Quis pretium, viverra non eu lacus, elit feugiat. Nisi, duis egestas accumsan cras sit lacus, sit. Elementum neque lectus faucibus vitae, metus odio at amet. Vel pellentesque adipiscing ultrices tristique vitae.</p>
+          <p class="bg-white">Lacus, convallis vitae tempor viverra dictum suspendisse consequat. Odio duis quam lobortis risus interdum leo, leo erat. Enim, quis ipsum aenean quis duis tincidunt risus. Ac commodo eu sed quis egestas posuere. Sit mi enim consectetur scelerisque imperdiet cras amet. Pellentesque laoreet volutpat ultrices nisl lobortis arcu pellentesque. Elementum neque lectus faucibus vitae, metus odio at amet. Vel pellentesque adipiscing ultrices tristique vitae.</p>
+        </div>
+        <div class="col-lg-3">
+          <h4 class="text-sm-start text-center">Lorem ipsum dolor </h4>
+          <div class="d-flex flex-wrap justify-content-around">
+            <div class="news-card mb-4 p-2 rounded-3 d-flex bg-white align-items-center justify-content-around">
+              <div>
+                <img class="rounded-5 mx-2" src="images/pic1.jpg" alt="">
+              </div>
+              <div class="news-card__text">
+                <h6>Онлайн приемная</h6>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="news-card mb-4 p-2 rounded-3 d-flex bg-white align-items-center justify-content-around">
+              <div>
+                <img class="rounded-5 mx-2" src="images/pic1.jpg" alt="">
+              </div>
+              <div class="news-card__text">
+                <h6>Онлайн приемная</h6>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="news-card mb-4 p-2 rounded-3 d-flex bg-white align-items-center justify-content-around">
+              <div>
+                <img class="rounded-5 mx-2" src="images/pic1.jpg" alt="">
+              </div>
+              <div class="news-card__text">
+                <h6>Онлайн приемная</h6>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="news-card mb-4 p-2 rounded-3 d-flex bg-white align-items-center justify-content-around">
+              <div>
+                <img class="rounded-5 mx-2" src="images/pic1.jpg" alt="">
+              </div>
+              <div class="news-card__text">
+                <h6>Онлайн приемная</h6>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div class="d-flex flex-wrap">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- news end -->
+
+  <!-- footer -->
+  <div class="footer mt-4">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-md-7 col-10 text-md-start text-center text-light mt-2">
+          <h1>All Marketing</h1>
+        </div>
+        
+        <div class="col-md-5 col-10 text-md-start text-center text-light mt-2">
+          <h5>+998 99 123 45 67</h5>
+          <p>support@allmarketing.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+  
+
+
+      
+
+
+  
+  <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
